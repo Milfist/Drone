@@ -1,85 +1,80 @@
 package com.drone.driver;
 
-import static org.mockito.Mockito.when;
+import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+import java.util.Optional;
+import java.util.OptionalDouble;
+
+import org.junit.Rule;
 import org.junit.Test;
-import org.mockito.Mock;
+import org.junit.rules.ExpectedException;
 
-import com.drone.common.Directions;
+import com.drone.common.Range;
 
 public class DriverTest {
-	
-	@Mock
-	Driver driverMock = new DriverImpl();
-	
+
+	@Rule
+	public ExpectedException expectedEx = ExpectedException.none();
+
 	Driver driver = new DriverImpl();
-	
-	Double x = 38.56889;
-	Double y = 40.511107;
-	
+
+	static final OptionalDouble X = OptionalDouble.of(38.56889);
+	static final OptionalDouble Y = OptionalDouble.of(40.511107);
+	static final Optional<Range> RANGE = Optional.of(Range.ONE);
+
+	String[] expected = { "7", "8", "9", "12", "13", "14", "17", "18", "19" };
+
 	@Test
-	public void testGetUrbanizations() {
-		
-//		when(driver.getUrbanizationId(x, y)).thenReturn(this.getUrbanizationId5());
-//		when(driver.getAdjacent("5", Directions.RIGHT)).thenReturn("6");
-//		when(driver.getAdjacent("5", Directions.LEFT)).thenReturn("4");
-//		when(driver.getAdjacent("5", Directions.UP)).thenReturn("2");
-//		when(driver.getAdjacent("5", Directions.DOWN)).thenReturn("8");
-//		when(driver.getAdjacent("2", Directions.RIGHT)).thenReturn("3");
-//		when(driver.getAdjacent("2", Directions.LEFT)).thenReturn("1");
-//		when(driver.getAdjacent("8", Directions.RIGHT)).thenReturn("9");
-//		when(driver.getAdjacent("8", Directions.LEFT)).thenReturn("7");	
-		
-		String[] datos = driver.getUrbanizations(x, y, 1);
-		
+	public void shouldBeOkForRangeOne() {
+
+		String[] result;
+
+		result = driver.getUrbanizations(X, Y, RANGE);
+		assertArrayEquals(expected, result);
+
+	}
+
+	@Test
+	public void shouldBeEmptyArrayWithParan1Empty() {
+		String[] result = driver.getUrbanizations(OptionalDouble.empty(), Y, RANGE);
+		assertTrue(result.length == 0);
+	}
+
+	@Test
+	public void shouldBeEmptyArrayWithParan2Empty() throws Exception {
+		String[] result = driver.getUrbanizations(X, OptionalDouble.empty(), RANGE);
+		assertTrue(result.length == 0);
+	}
+
+	@Test
+	public void shouldBeEmptyArrayWithParan3Empty() throws Exception {
+		String[] result = driver.getUrbanizations(X, Y, Optional.ofNullable(null));
+		assertTrue(result.length == 0);
+	}
+
+	@Test
+	public void shouldBeEmptyArrayWithAllParansEmpty() throws Exception {
+		String[] result = driver.getUrbanizations(OptionalDouble.empty(), OptionalDouble.empty(), Optional.ofNullable(null));
+		assertTrue(result.length == 0);
 	}
 	
-//	private String[][] getData() {
-//		String[][] data = new String[3][3];
-//		
-//		data[0][0] = "1";
-//		data[0][1] = "2";
-//		data[0][2] = "3";
-//		
-//		
-//		data[1][0] = "4";
-//		data[1][1] = "5";
-//		data[1][2] = "6";
-//		
-//		data[2][0] = "7";
-//		data[2][1] = "8";
-//		data[2][2] = "9";
-//		
-//		return data;
-//	}
-
-	private String getUrbanizationId5() {
-		return "5";
+	@Test(expected = Exception.class)
+	public void espectedExceptionWithParam1Null() throws Exception {
+		driver.getUrbanizations(null, Y, RANGE);
 	}
-
-	private String getAdjacentMock(String urbanizationId, Directions direction) {
-		
-		String r = "";
-		
-		if (urbanizationId.equals("5") && direction.equals(Directions.LEFT)) {
-			r = "4";
-		} else if (urbanizationId.equals("5") && direction.equals(Directions.RIGHT)) {
-			r = "6";
-		} else if (urbanizationId.equals("5") && direction.equals(Directions.UP)) {
-			r = "2";
-		} else if (urbanizationId.equals("5") && direction.equals(Directions.DOWN)) {
-			r = "8";
-		} else if (urbanizationId.equals("2") && direction.equals(Directions.RIGHT)) {
-			r = "3";
-		} else if (urbanizationId.equals("2") && direction.equals(Directions.LEFT)) {
-			r = "1";
-		} else if (urbanizationId.equals("8") && direction.equals(Directions.RIGHT)) {
-			r = "9";
-		} else if (urbanizationId.equals("8") && direction.equals(Directions.LEFT)) {
-			r = "7";
-		}  
-		
-		return r;
+	
+	@Test(expected = Exception.class)
+	public void espectedExceptionWithParam2Null() throws Exception {
+		driver.getUrbanizations(X, null, RANGE);
 	}
-
+	
+	@Test(expected = Exception.class)
+	public void espectedExceptionWithParam3Null() throws Exception {
+		driver.getUrbanizations(X, Y, null);
+	}
+	@Test(expected = Exception.class)
+	public void espectedExceptionWithAllParamsNull() throws Exception {
+		driver.getUrbanizations(null, null, null);
+	}
 }
