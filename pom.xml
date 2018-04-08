@@ -10,6 +10,15 @@
     	<maven.compiler.source>1.9</maven.compiler.source>
     	<maven.compiler.target>1.9</maven.compiler.target>
   	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.2-SNAPSHOT</version>
+			</plugin>
+		</plugins>
+	</build>
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -30,4 +39,20 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+<!--	<reporting>
+		<plugins>
+		<plugin>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<reportSets>
+			<reportSet>
+				<reports>
+				
+				<report>report</report>
+				</reports>
+			</reportSet>
+			</reportSets>
+		</plugin>
+		</plugins>
+	</reporting>-->
 </project>
