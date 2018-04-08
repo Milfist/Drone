@@ -1,6 +1,6 @@
 # Drone
 
-[![Build Status](https://sonarcloud.io/dashboard?id=Drone%3ADrone)](https://sonarcloud.io/api/ce/task?id=AWKlav8uo-4kJLXn2MYF)
+[![Build Status](https://sonarcloud.io/dashboard?id=Drone%3ADrone)](https://sonarcloud.io/dashboard?id=Drone%3ADrone)
 
 
 A simple driver for a drone has been developed (vehicle
