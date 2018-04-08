@@ -1,3 +1,5 @@
 languaje: java
+sudo: false
+script: mvn clean verify
 jdk:
   - oraclejdk9
