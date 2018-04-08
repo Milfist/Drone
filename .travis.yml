@@ -1,5 +1,2 @@
 language: java
-sudo: false
-os: osx
-jdk:
-  - oraclejdk9
+jdk: oraclejdk9
