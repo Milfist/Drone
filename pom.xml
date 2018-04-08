@@ -6,6 +6,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Drone</name>
 	<description>Driver for drones.</description>
+	<properties>
+    	<maven.compiler.source>1.9</maven.compiler.source>
+    	<maven.compiler.target>1.9</maven.compiler.target>
+  	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.mockito</groupId>
