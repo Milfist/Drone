@@ -6,16 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import java.util.Optional;
 import java.util.OptionalDouble;
 
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
 
 import com.drone.common.Range;
 
 public class DriverTest {
-
-	@Rule
-	public ExpectedException expectedEx = ExpectedException.none();
 
 	Driver driver = new DriverImpl();
 
