@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Milfist/Drone.svg?branch=master)](https://travis-ci.org/Milfist/Drone)
 
-https://travis-ci.org/Milfist/Drone.svg?branch=master
+
 A simple driver for a drone has been developed (vehicle
 unmanned aerial). With this device you want to fly over a set
 of urbanizations (defined by an identifier) ​​with the objective of
