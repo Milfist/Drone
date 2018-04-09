@@ -1,0 +1,10 @@
+plugins:
+  sonar-java:
+    enabled: true
+	config:
+      tests_patterns:
+        - src/test/**
+checks:
+	method-complexity:
+		config:
+			threshold: 5
