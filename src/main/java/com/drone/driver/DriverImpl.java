@@ -18,34 +18,23 @@ public class DriverImpl implements Driver {
      * @see com.drone.driver.Driver#getAdjacent()
      */
     public String getAdjacent(String urbanizationId, Directions direction) {
-
-        String r = "";
-        
-        if (direction.equals(Directions.UP)) {
+        String r = "";    
+        if (direction.equals(Directions.UP))
         	r = "8";
-        } 
-        if (direction.equals(Directions.DOWN)) {
-        	r = "18";
-        } 
-        if (urbanizationId.equals("13") && direction.equals(Directions.LEFT)) {
+        if (direction.equals(Directions.DOWN))
+        	r = "18"; 
+        if (urbanizationId.equals("13") && direction.equals(Directions.LEFT))
             r = "12";
-        } 
-        if (urbanizationId.equals("13") && direction.equals(Directions.RIGHT)) {
+        if (urbanizationId.equals("13") && direction.equals(Directions.RIGHT))
             r = "14";
-        } 
-        if (urbanizationId.equals("8") && direction.equals(Directions.RIGHT)) {
+        if (urbanizationId.equals("8") && direction.equals(Directions.RIGHT))
             r = "9";
-        } 
-        if (urbanizationId.equals("8") && direction.equals(Directions.LEFT)) {
+        if (urbanizationId.equals("8") && direction.equals(Directions.LEFT))
             r = "7";
-        } 
-        if (urbanizationId.equals("18") && direction.equals(Directions.RIGHT)) {
+        if (urbanizationId.equals("18") && direction.equals(Directions.RIGHT))
             r = "19";
-        } 
-        if (urbanizationId.equals("18") && direction.equals(Directions.LEFT)) {
-            r = "17";
-        }
-        
+        if (urbanizationId.equals("18") && direction.equals(Directions.LEFT))
+            r = "17";    
         return r;
     }
 }
