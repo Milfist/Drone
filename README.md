@@ -1,10 +1,11 @@
 [![Build Status](https://travis-ci.org/Milfist/Drone.svg?branch=master)](https://travis-ci.org/Milfist/Drone)   [![Maintainability](https://api.codeclimate.com/v1/badges/700169481b27774825a2/maintainability)](https://codeclimate.com/github/Milfist/Drone/maintainability)
-   [![Test Coverage](https://api.codeclimate.com/v1/badges/700169481b27774825a2/test_coverage)](https://codeclimate.com/github/Milfist/Drone/test_coverage)
+   [![Test Coverage](https://api.codeclimate.com/v1/badges/700169481b27774825a2/test_coverage)](https://codeclimate.com/github/Milfist/Drone/test_coverage)[![codecov.io](http://codecov.io/github/mirumee/saleor/coverage.svg?branch=master)](http://codecov.io/github/mirumee/saleor?branch=master)
 
 # Drone
 
-<!--[![codecov.io](http://codecov.io/github/mirumee/saleor/coverage.svg?branch=master)](http://codecov.io/github/mirumee/saleor?branch=master)-->
+# [Milfist][0] Drone
 
+## Description
 
 A simple driver for a drone has been developed (vehicle
 unmanned aerial). With this device you want to fly over a set
@@ -15,7 +16,12 @@ coordinates and a range to fly over (whole number representing
 an area with a certain size), but the drone can only be
 Provide a collection of urbanizations to visit.
 
+### Travis Setup
+
+It is an example application in **Java 9**. It has continuous integration with **Travis CI**, report of unit test coverage and is integrated with **CodeClimate**.
 
 
 
 ![alt text](https://github.com/Milfist/Docs/blob/master/milfist.JPG)
+
+[0]: https://github.com/Milfist/
