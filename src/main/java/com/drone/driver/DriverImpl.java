@@ -23,19 +23,26 @@ public class DriverImpl implements Driver {
         
         if (direction.equals(Directions.UP)) {
         	r = "8";
-        } else if (direction.equals(Directions.DOWN)) {
+        } 
+        if (direction.equals(Directions.DOWN)) {
         	r = "18";
-        } else if (urbanizationId.equals("13") && direction.equals(Directions.LEFT)) {
+        } 
+        if (urbanizationId.equals("13") && direction.equals(Directions.LEFT)) {
             r = "12";
-        } else if (urbanizationId.equals("13") && direction.equals(Directions.RIGHT)) {
+        } 
+        if (urbanizationId.equals("13") && direction.equals(Directions.RIGHT)) {
             r = "14";
-        } else if (urbanizationId.equals("8") && direction.equals(Directions.RIGHT)) {
+        } 
+        if (urbanizationId.equals("8") && direction.equals(Directions.RIGHT)) {
             r = "9";
-        } else if (urbanizationId.equals("8") && direction.equals(Directions.LEFT)) {
+        } 
+        if (urbanizationId.equals("8") && direction.equals(Directions.LEFT)) {
             r = "7";
-        } else if (urbanizationId.equals("18") && direction.equals(Directions.RIGHT)) {
+        } 
+        if (urbanizationId.equals("18") && direction.equals(Directions.RIGHT)) {
             r = "19";
-        } else if (urbanizationId.equals("18") && direction.equals(Directions.LEFT)) {
+        } 
+        if (urbanizationId.equals("18") && direction.equals(Directions.LEFT)) {
             r = "17";
         }
         

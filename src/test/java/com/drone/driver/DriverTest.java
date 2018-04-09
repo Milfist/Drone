@@ -12,13 +12,12 @@ import com.drone.common.Range;
 
 public class DriverTest {
 
-	Driver driver = new DriverImpl();
-
 	static final OptionalDouble X = OptionalDouble.of(38.56889);
 	static final OptionalDouble Y = OptionalDouble.of(40.511107);
 	static final Optional<Range> RANGE = Optional.of(Range.ONE);
-
-	String[] expected = { "7", "8", "9", "12", "13", "14", "17", "18", "19" };
+	static final String[] expected = { "7", "8", "9", "12", "13", "14", "17", "18", "19" };
+	
+	Driver driver = new DriverImpl();
 
 	@Test
 	public void shouldBeOkForRangeOne() {
