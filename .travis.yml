@@ -1,2 +1,6 @@
 language: java
 jdk: oraclejdk9
+#script: "mvn cobertura:cobertura"
+#install: composer install --dev
+#after_success:
+#  - bash <(curl -s https://codecov.io/bash) -t 150f3958-63ec-4ee4-ae19-62204606e407

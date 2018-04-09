@@ -1,6 +1,9 @@
+[![Build Status](https://travis-ci.org/Milfist/Drone.svg?branch=master)](https://travis-ci.org/Milfist/Drone)   [![Maintainability](https://api.codeclimate.com/v1/badges/700169481b27774825a2/maintainability)](https://codeclimate.com/github/Milfist/Drone/maintainability)
+   [![Test Coverage](https://api.codeclimate.com/v1/badges/700169481b27774825a2/test_coverage)](https://codeclimate.com/github/Milfist/Drone/test_coverage)
+
 # Drone
 
-[![Build Status](https://travis-ci.org/Milfist/Drone.svg?branch=master)](https://travis-ci.org/Milfist/Drone)
+<!--[![codecov.io](http://codecov.io/github/mirumee/saleor/coverage.svg?branch=master)](http://codecov.io/github/mirumee/saleor?branch=master)-->
 
 
 A simple driver for a drone has been developed (vehicle
