@@ -16,7 +16,7 @@ coordinates and a range to fly over (whole number representing
 an area with a certain size), but the drone can only be
 Provide a collection of urbanizations to visit.
 
-### Travis Setup
+### What will I find?
 
 It is an example application in **Java 9**. It has continuous integration with **Travis CI**, report of unit test coverage and is integrated with **CodeClimate**.
 
