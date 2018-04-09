@@ -16,7 +16,7 @@ addons:
 #  - bundle exec rspec
 #after_script:
 #  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-script: "mvn test"
+#script: "mvn test"
 #install: composer install --dev
 #after_success:
 #  - bash <(curl -s https://codecov.io/bash) -t 150f3958-63ec-4ee4-ae19-62204606e407
