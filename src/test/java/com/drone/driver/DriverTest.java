@@ -22,12 +22,10 @@ public class DriverTest {
 
 	@Test
 	public void shouldBeOkForRangeOne() {
-
+		
 		String[] result;
-
 		result = driver.getUrbanizations(X, Y, RANGE);
 		assertArrayEquals(expected, result);
-
 	}
 
 	@Test

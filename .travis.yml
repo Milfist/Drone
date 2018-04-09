@@ -1,22 +1,4 @@
-env:
-  global:
-    - CC_TEST_REPORTER_ID=cf0d606224258853e844a7c886bd158d977f3246a30308e210f82f7ed434b972
 language: java
 jdk: oraclejdk9
-addons:
-  code_climate:
-    repo_token:
-		cf0d606224258853e844a7c886bd158d977f3246a30308e210f82f7ed434b972
-      #secure: "g2pXEX+Ez3…="
-#before_script:
-#  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-#  - chmod +x ./cc-test-reporter
-#  - ./cc-test-reporter before-build
-#script:
-#  - bundle exec rspec
-#after_script:
-#  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-#script: "mvn test"
-#install: composer install --dev
-#after_success:
-#  - bash <(curl -s https://codecov.io/bash) -t 150f3958-63ec-4ee4-ae19-62204606e407
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
