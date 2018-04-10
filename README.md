@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/Milfist/Drone.svg?branch=master)](https://travis-ci.org/Milfist/Drone)   [![Maintainability](https://api.codeclimate.com/v1/badges/700169481b27774825a2/maintainability)](https://codeclimate.com/github/Milfist/Drone/maintainability)
  [![codecov](https://codecov.io/gh/Milfist/Drone/branch/master/graph/badge.svg)](https://codecov.io/gh/Milfist/Drone) [![HitCount](http://hits.dwyl.com/Milfist/Drone.svg)](http://hits.dwyl.com/Milfist/Drone)
 
-[![Quality Gate](https://sonarcloud.io/api/badges/gate?key=milfist-github)](https://sonarcloud.io/dashboard/index/milfist-github)
+[![Quality Gate](https://sonarcloud.io/api/badges/gate?key=Drone%3ADrone)](https://sonarcloud.io/dashboard/index/Drone%3ADrone)
 <!--[![SonarCloud Coverage](https://sonarcloud.io/api/badges/measure?key=com.github.noraui%3Anoraui&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=com.github.noraui:noraui)
 [![SonarCloud Bugs](https://sonarcloud.io/api/badges/measure?key=com.github.noraui%3Anoraui&metric=bugs)](https://sonarcloud.io/component_measures/metric/reliability_rating/list?id=com.github.noraui%3Anoraui)
 [![SonarCloud Vulnerabilities](https://sonarcloud.io/api/badges/measure?key=com.github.noraui%3Anoraui&metric=vulnerabilities)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=com.github.noraui%3Anoraui)
