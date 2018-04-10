@@ -4,7 +4,16 @@ addons:
   code_climate:
     repo_token: 
       secure: "hkpU5hbhM7Xhn8OGVKQiJ5bthu0NDsCm90BLjlMwKf6GD82YvdAHMCBZ0SbsXjMMIrbwtAfky1lFpXsqHIW8kk8yYrhnXKbE4PJ5gfwQNPPhHi/0RZchT0VmVOEq2tuanHNlCzxURhWewG05Ykbpgvlhwb2uHD2nrkEtMZ1xpDAOvwyl1RRlmvc5o4sRlNnSvYxbcyj1Wzn5g/KKqobbAbK96L1o7XByeZQtsKQV/S2XPSuCnVjFMlidm/CURtgugf6CXjrOat7M8bK20CBs5Co8dseb9GQA2wYEOTRaazbbxTFDegYNqOcf4SagdEWQzscu0qVZWl1v412auzCp3poEouYjqfF66rRqxqE2iFmXdH7R79UGDhr93t9CplgAAN0FsLQDdSa6uiHSDRezHPKotBDrQRsuLGve9EoFAfm+v6OLYIes71k7MkAi0gKkMoUDCzwn3zmH9whfYlbtGY54X73c/nTj/2JwdvaU6LkleWJ3VqqlPR6ZfbO7/7Prg6EsXpxJ3aIG3xnVDiPyq44qAFZKFg+yWsRTK0Vi6Z42Ji2h/fvEaipz+PaU6VaPvlsWqaNIBi1CWI+MR5hF0F3hO3Bus7xHsqEdtkcQLrpzWrNhFk5hN4X/OYR8dCjLogiiNzGB7b6aTSayBYX2dUqBD3GIakhBIfLXl6ilnrA"
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build	  
+script:
+  - bundle exec rspec
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+
 
   
