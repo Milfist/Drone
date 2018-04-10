@@ -7,6 +7,9 @@ import com.drone.common.Directions;
  */
 public class DriverImpl implements Driver {
 
+    // TODO: con un bucle doble con un parametro de entrada que nos de el tamaño.
+    private static final String[][] mock = {}{};
+
     /**
      * @see com.drone.driver.Driver#getUrbanizationId()
      */
