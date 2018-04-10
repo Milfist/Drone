@@ -1,5 +1,6 @@
 package com.drone.driver;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
@@ -8,6 +9,7 @@ import java.util.OptionalDouble;
 
 import org.junit.Test;
 
+import com.drone.common.Directions;
 import com.drone.common.Range;
 
 public class DriverTest {
@@ -68,5 +70,29 @@ public class DriverTest {
 	@Test(expected = Exception.class)
 	public void espectedExceptionWithAllParamsNull() throws Exception {
 		driver.getUrbanizations(null, null, null);
+	}
+	
+	@Test
+	public void shouldBeOkWhenGetUrbanizationId() {
+		assertEquals("13", driver.getUrbanizationId(X.getAsDouble(), Y.getAsDouble()));
+		assertEquals("13", driver.getUrbanizationId(null, null));
+	}
+	
+	@Test
+	public void shouldBeOkWhenGetAdjacent() {
+		assertEquals("8", driver.getAdjacent("13", Directions.UP));
+		assertEquals("18", driver.getAdjacent("13", Directions.DOWN));
+		assertEquals("12", driver.getAdjacent("13", Directions.LEFT));
+		assertEquals("14", driver.getAdjacent("13", Directions.RIGHT));
+		assertEquals("9", driver.getAdjacent("8", Directions.RIGHT));
+		assertEquals("7", driver.getAdjacent("8", Directions.LEFT));
+		assertEquals("19", driver.getAdjacent("18", Directions.RIGHT));
+		assertEquals("17", driver.getAdjacent("18", Directions.LEFT));
+		assertEquals("", driver.getAdjacent("", Directions.LEFT));
+	}
+	
+	@Test(expected = Exception.class)
+	public void espectedExceptionWithAnythingParamNull() throws Exception {
+		driver.getAdjacent(null, Directions.UP);
 	}
 }
