@@ -1,43 +1,60 @@
 package com.drone.driver;
 
 import com.drone.common.Directions;
+import com.drone.service.UrbanizationsTreatmentService;
 
 /**
  * @see com.drone.driver.Driver
  */
 public class DriverImpl implements Driver {
 
-    // TODO: con un bucle doble con un parametro de entrada que nos de el tamaño.
-    private static final String[][] mock = {}{};
+    private UrbanizationsTreatmentService service;
+    private String[][] totalUrbanizations;
+    private Integer size;
+
+    public DriverImpl(UrbanizationsTreatmentService service, Integer size) {
+        this.service = service;
+        this.totalUrbanizations = service.createUrbanizationsData(size);
+        this.size = size;
+    }
+
+    public Integer getSize() {
+        return size;
+    }
 
     /**
      * @see com.drone.driver.Driver#getUrbanizationId()
+     *
+     * We do not use the coordinates at the moment
+     *
      */
     public String getUrbanizationId(Double coordinateX, Double coordinateY) {
-        return "13";
+        return this.service.getCenterOfArray(this.totalUrbanizations);
     }
 
     /**
      * @see com.drone.driver.Driver#getAdjacent()
      */
     public String getAdjacent(String urbanizationId, Directions direction) {
-        String r = "";    
-        if (direction.equals(Directions.UP))
-        	r = "8";
-        if (direction.equals(Directions.DOWN))
-        	r = "18"; 
-        if (urbanizationId.equals("13") && direction.equals(Directions.LEFT))
-            r = "12";
-        if (urbanizationId.equals("13") && direction.equals(Directions.RIGHT))
-            r = "14";
-        if (urbanizationId.equals("8") && direction.equals(Directions.RIGHT))
-            r = "9";
-        if (urbanizationId.equals("8") && direction.equals(Directions.LEFT))
-            r = "7";
-        if (urbanizationId.equals("18") && direction.equals(Directions.RIGHT))
-            r = "19";
-        if (urbanizationId.equals("18") && direction.equals(Directions.LEFT))
-            r = "17";    
+
+        String r = "";
+
+        for (int x = 0; x < this.getSize(); x++) {
+            for (int y = 0; y < this.getSize(); y++) {
+
+                if (urbanizationId.equals(this.totalUrbanizations[x][y])) {
+
+                    if (direction.equals(Directions.UP))
+                        r = this.totalUrbanizations[x -1][y];
+                    if (direction.equals(Directions.DOWN))
+                        r = this.totalUrbanizations[x + 1][y];
+                    if (direction.equals(Directions.LEFT))
+                        r = this.totalUrbanizations[x][y - 1];
+                    if (direction.equals(Directions.RIGHT))
+                        r = this.totalUrbanizations[x][y + 1];
+                }
+            }
+        }
         return r;
     }
 }

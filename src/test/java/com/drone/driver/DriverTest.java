@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import java.util.Optional;
 import java.util.OptionalDouble;
 
+import com.drone.service.UrbanizationsTreatmentServiceImpl;
 import org.junit.Test;
 
 import com.drone.common.Directions;
@@ -19,7 +20,7 @@ public class DriverTest {
 	static final Optional<Range> RANGE = Optional.of(Range.ONE);
 	static final String[] expected = { "7", "8", "9", "12", "13", "14", "17", "18", "19" };
 	
-	Driver driver = new DriverImpl();
+	Driver driver = new DriverImpl(new UrbanizationsTreatmentServiceImpl(), 5);
 
 	@Test
 	public void shouldBeOkForRangeOne() {
