@@ -19,7 +19,7 @@ public class UrbanizationsTreatmentServiceImpl implements UrbanizationsTreatment
      * @see UrbanizationsTreatmentService#getPositionByCoordinate(Double, Double)
      */
     @Override
-    public String getPositionByCoordinate(Double X, Double Y) {
+    public String getPositionByCoordinate(Double coordinateX, Double coordinateY) {
         return null;
     }
 }

@@ -15,10 +15,10 @@ public interface UrbanizationsTreatmentService {
 
     /**
      * Simulates a call by which a position is obtained based on coordinates.
-     * @param X axis coordinate
-     * @param Y axis coordinate
+     * @param coordinateX axis coordinate
+     * @param coordinateY axis coordinate
      * @return the result of the call obtained by the center of a two-dimensional array
      */
-    String getPositionByCoordinate(Double X, Double Y);
+    String getPositionByCoordinate(Double coordinateX, Double coordinateY);
 
 }

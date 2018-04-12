@@ -33,7 +33,7 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
      * @see UrbanizationsTreatmentService#getPositionByCoordinate(Double, Double)
      */
     @Override
-    public String getPositionByCoordinate(Double X, Double Y) {
+    public String getPositionByCoordinate(Double coordinateX, Double coordinateY) {
         return this.getCenterOfArray();
     }
 
@@ -46,14 +46,22 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
         for (int x = 0; x < this.getSize(); x++) {
             for (int y = 0; y < this.getSize(); y++) {
                 if (urbanizationId.equals(this.data[x][y])) {
-                    if (direction.equals(Directions.UP))
-                        response = this.data[x -1][y];
-                    if (direction.equals(Directions.DOWN))
-                        response = this.data[x + 1][y];
-                    if (direction.equals(Directions.LEFT))
-                        response = this.data[x][y - 1];
-                    if (direction.equals(Directions.RIGHT))
-                        response = this.data[x][y + 1];
+                    switch (direction) {
+                        case UP:
+                            response = this.data[x -1][y];
+                            break;
+                        case DOWN:
+                            response = this.data[x + 1][y];
+                            break;
+                        case LEFT:
+                            response = this.data[x][y - 1];
+                            break;
+                        case RIGHT:
+                            response = this.data[x][y + 1];
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
         }
