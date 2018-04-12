@@ -59,8 +59,6 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
                         case RIGHT:
                             response = this.data[x][y + 1];
                             break;
-                        default:
-                            break;
                     }
                 }
             }
