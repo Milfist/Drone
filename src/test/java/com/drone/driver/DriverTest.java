@@ -1,98 +1,111 @@
 package com.drone.driver;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import com.drone.common.Directions;
+import com.drone.common.Range;
+import com.drone.service.UrbanizationsTreatmentService;
+import com.drone.service.UrbanizationsTreatmentServiceImpl;
+import com.drone.service.UrbanizationsTreatmentSimulatedServiceImpl;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.Optional;
 import java.util.OptionalDouble;
 
-import org.junit.Test;
-
-import com.drone.common.Directions;
-import com.drone.common.Range;
+import static org.junit.Assert.*;
+import static org.mockito.Matchers.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 public class DriverTest {
 
-	static final OptionalDouble X = OptionalDouble.of(38.56889);
-	static final OptionalDouble Y = OptionalDouble.of(40.511107);
-	static final Optional<Range> RANGE = Optional.of(Range.ONE);
-	static final String[] expected = { "7", "8", "9", "12", "13", "14", "17", "18", "19" };
-	
-	Driver driver = new DriverImpl();
+	private static final Double X = 38.56889;
+	private static final Double Y = 40.511107;
+	private static final Range RANGE = Range.ONE;
+	private static final String[] expected = { "1", "1", "1", "1", "1", "1", "1", "1", "1" };
+	private static final String POSITION = "1";
+	private UrbanizationsTreatmentService realServiceMock = mock(UrbanizationsTreatmentServiceImpl.class);
+	private UrbanizationsTreatmentService simulatedServiceMock = mock(UrbanizationsTreatmentSimulatedServiceImpl.class);
+	private Driver realDriver;
+	private Driver simulatedDriver;
+
+	@Before
+	public void setup() {
+		realDriver = new DriverImpl(realServiceMock);
+		simulatedDriver = new DriverImpl(simulatedServiceMock);
+	}
 
 	@Test
-	public void shouldBeOkForRangeOne() {
-		
-		String[] result;
-		result = driver.getUrbanizations(X, Y, RANGE);
+	public void shouldBeOkWhenCallToGetUrbanizationsWithRealService() {
+
+		when(realServiceMock.getPositionByCoordinate(anyDouble(), anyDouble())).thenReturn(POSITION);
+		when(realServiceMock.getAdjacent(anyString(), any(Directions.class))).thenReturn(POSITION);
+
+		String[] result = this.realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.of(RANGE));
+
 		assertArrayEquals(expected, result);
 	}
 
 	@Test
-	public void shouldBeEmptyArrayWithParan1Empty() {
-		String[] result = driver.getUrbanizations(OptionalDouble.empty(), Y, RANGE);
+	public void shouldBeOkWhenCallToGetUrbanizationsWithSimulatedService() {
+
+		when(simulatedServiceMock.getPositionByCoordinate(anyDouble(), anyDouble())).thenReturn(POSITION);
+		when(simulatedServiceMock.getAdjacent(anyString(), any(Directions.class))).thenReturn(POSITION);
+
+		String[] result = this.simulatedDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.of(RANGE));
+
+		assertArrayEquals(expected, result);
+	}
+
+	@Test
+	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam1Empty() {
+		String[] result = realDriver.getUrbanizations(OptionalDouble.empty(), OptionalDouble.of(Y), Optional.of(RANGE));
 		assertTrue(result.length == 0);
 	}
 
 	@Test
-	public void shouldBeEmptyArrayWithParan2Empty() throws Exception {
-		String[] result = driver.getUrbanizations(X, OptionalDouble.empty(), RANGE);
+	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam2Empty() {
+		String[] result = realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.empty(), Optional.of(RANGE));
 		assertTrue(result.length == 0);
 	}
 
 	@Test
-	public void shouldBeEmptyArrayWithParan3Empty() throws Exception {
-		String[] result = driver.getUrbanizations(X, Y, Optional.ofNullable(null));
+	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam3Empty() {
+		String[] result = realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.empty());
 		assertTrue(result.length == 0);
 	}
 
 	@Test
-	public void shouldBeEmptyArrayWithAllParansEmpty() throws Exception {
-		String[] result = driver.getUrbanizations(OptionalDouble.empty(), OptionalDouble.empty(), Optional.ofNullable(null));
+	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithAllParamsEmpty() {
+		String[] result = realDriver.getUrbanizations(OptionalDouble.empty(), OptionalDouble.empty(), Optional.empty());
 		assertTrue(result.length == 0);
 	}
-	
-	@Test(expected = Exception.class)
-	public void espectedExceptionWithParam1Null() throws Exception {
-		driver.getUrbanizations(null, Y, RANGE);
-	}
-	
-	@Test(expected = Exception.class)
-	public void espectedExceptionWithParam2Null() throws Exception {
-		driver.getUrbanizations(X, null, RANGE);
-	}
-	
-	@Test(expected = Exception.class)
-	public void espectedExceptionWithParam3Null() throws Exception {
-		driver.getUrbanizations(X, Y, null);
-	}
-	@Test(expected = Exception.class)
-	public void espectedExceptionWithAllParamsNull() throws Exception {
-		driver.getUrbanizations(null, null, null);
-	}
-	
+
 	@Test
-	public void shouldBeOkWhenGetUrbanizationId() {
-		assertEquals("13", driver.getUrbanizationId(X.getAsDouble(), Y.getAsDouble()));
-		assertEquals("13", driver.getUrbanizationId(null, null));
+	public void shouldBeOkWhenCallToGetAdjacentWithRealService() {
+		when(realServiceMock.getAdjacent(anyString(), any(Directions.class))).thenReturn(POSITION);
+		String result = this.realDriver.getAdjacent("13", Directions.RIGHT);
+		assertEquals(POSITION, result);
 	}
-	
+
 	@Test
-	public void shouldBeOkWhenGetAdjacent() {
-		assertEquals("8", driver.getAdjacent("13", Directions.UP));
-		assertEquals("18", driver.getAdjacent("13", Directions.DOWN));
-		assertEquals("12", driver.getAdjacent("13", Directions.LEFT));
-		assertEquals("14", driver.getAdjacent("13", Directions.RIGHT));
-		assertEquals("9", driver.getAdjacent("8", Directions.RIGHT));
-		assertEquals("7", driver.getAdjacent("8", Directions.LEFT));
-		assertEquals("19", driver.getAdjacent("18", Directions.RIGHT));
-		assertEquals("17", driver.getAdjacent("18", Directions.LEFT));
-		assertEquals("", driver.getAdjacent("", Directions.LEFT));
+	public void shouldBeOkWhenCallToGetAdjacentWithSimulatedService() {
+		when(simulatedServiceMock.getAdjacent(anyString(), any(Directions.class))).thenReturn(POSITION);
+		String result = this.simulatedDriver.getAdjacent("13", Directions.RIGHT);
+		assertEquals(POSITION, result);
 	}
-	
-	@Test(expected = Exception.class)
-	public void espectedExceptionWithAnythingParamNull() throws Exception {
-		driver.getAdjacent(null, Directions.UP);
+
+	@Test
+	public void shouldBeOkWhenCallToGetUrbanizationIdWithRealService() {
+		when(realServiceMock.getPositionByCoordinate(anyDouble(), anyDouble())).thenReturn(POSITION);
+		String result = this.realDriver.getUrbanizationId(X, Y);
+		assertEquals(POSITION, result);
 	}
+
+	@Test
+	public void shouldBeOkWhenCallToGetUrbanizationIdWithSimulatedService() {
+		when(simulatedServiceMock.getPositionByCoordinate(anyDouble(), anyDouble())).thenReturn(POSITION);
+		String result = this.simulatedDriver.getUrbanizationId(X, Y);
+		assertEquals(POSITION, result);
+	}
+
 }

@@ -1,40 +1,34 @@
 package com.drone.driver;
 
 import com.drone.common.Directions;
+import com.drone.service.UrbanizationsTreatmentService;
 
 /**
  * @see com.drone.driver.Driver
  */
 public class DriverImpl implements Driver {
 
+    private UrbanizationsTreatmentService service;
+
     /**
-     * @see com.drone.driver.Driver#getUrbanizationId()
+     * Driver class constructor
+     * @param service instance of the service to be used. It can be a simulated or real service.
      */
-    public String getUrbanizationId(Double coordinateX, Double coordinateY) {
-        return "13";
+    public DriverImpl(UrbanizationsTreatmentService service) {
+        this.service = service;
     }
 
     /**
-     * @see com.drone.driver.Driver#getAdjacent()
+     * @see Driver#getUrbanizationId(Double, Double)
+     */
+    public String getUrbanizationId(Double coordinateX, Double coordinateY) {
+        return this.service.getPositionByCoordinate(coordinateX, coordinateY);
+    }
+
+    /**
+     * @see Driver#getAdjacent(String, Directions)
      */
     public String getAdjacent(String urbanizationId, Directions direction) {
-        String r = "";    
-        if (direction.equals(Directions.UP))
-        	r = "8";
-        if (direction.equals(Directions.DOWN))
-        	r = "18"; 
-        if (urbanizationId.equals("13") && direction.equals(Directions.LEFT))
-            r = "12";
-        if (urbanizationId.equals("13") && direction.equals(Directions.RIGHT))
-            r = "14";
-        if (urbanizationId.equals("8") && direction.equals(Directions.RIGHT))
-            r = "9";
-        if (urbanizationId.equals("8") && direction.equals(Directions.LEFT))
-            r = "7";
-        if (urbanizationId.equals("18") && direction.equals(Directions.RIGHT))
-            r = "19";
-        if (urbanizationId.equals("18") && direction.equals(Directions.LEFT))
-            r = "17";    
-        return r;
+        return this.service.getAdjacent(urbanizationId,direction);
     }
 }
