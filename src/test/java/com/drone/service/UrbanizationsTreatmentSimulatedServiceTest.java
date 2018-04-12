@@ -65,6 +65,13 @@ public class UrbanizationsTreatmentSimulatedServiceTest {
 	}
 
 	@Test
+	public void shouldBeOkInGetAdjacentCallForOtherDirection() {
+		rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
+		String result = rService.getAdjacent("5", Directions.DEFAULT);
+		assertEquals("", result);
+	}
+
+	@Test
 	public void shouldBeOkInGetPositionByCoordinateCallForAnythingParams() {
 		rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
 		String result = rService.getPositionByCoordinate(null, null);
