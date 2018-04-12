@@ -42,15 +42,12 @@ public interface Driver {
 	 */
 	default String[] getUrbanizations(OptionalDouble coordinateX, OptionalDouble coordinateY, Optional <Range> range) {
 
-
-
-
 		List<String> urbanizations = new ArrayList<>();
 		
 		if (coordinateX.isPresent() && coordinateY.isPresent() && range.isPresent()) {
 
 			String urbanizationId = this.getUrbanizationId(coordinateX.getAsDouble(), coordinateY.getAsDouble());
-	
+
 			urbanizations.add(urbanizationId);
 	
 			for (Directions dir : Directions.values()) {

@@ -1,17 +1,25 @@
 package com.drone.service;
 
-import org.springframework.stereotype.Service;
+import com.drone.common.Directions;
 
 /**
- * Interface UrbanizationsTreatmentService implementation
+ * Real implementation of the service.
  */
-@Service
 public class UrbanizationsTreatmentServiceImpl implements UrbanizationsTreatmentService {
 
+    /**
+     * @see UrbanizationsTreatmentService#getAdjacent(String, Directions)
+     */
     @Override
-    public String getCenterOfArray(String[][] data) {
-        return data.length%2 == 0 ? data[data.length/2 -1][data.length/2 -1] : data[data.length/2][data.length/2];
+    public String getAdjacent(String urbanizationId, Directions direction) {
+        return null;
     }
 
-
+    /**
+     * @see UrbanizationsTreatmentService#getPositionByCoordinate(Double, Double)
+     */
+    @Override
+    public String getPositionByCoordinate(Double X, Double Y) {
+        return null;
+    }
 }
