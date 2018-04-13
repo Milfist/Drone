@@ -16,7 +16,7 @@ import static org.mockito.Matchers.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class DriverTest {
+public class DriverUT {
 
 	private static final Double X = 38.56889;
 	private static final Double Y = 40.511107;
@@ -42,8 +42,6 @@ public class DriverTest {
 		String[] result = this.realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.of(RANGE));
 
 		assertNotNull(result);
-		assertTrue(result instanceof String[]);
-
 	}
 
 	@Test
@@ -55,7 +53,6 @@ public class DriverTest {
 		String[] result = this.simulatedDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.of(RANGE));
 
 		assertNotNull(result);
-		assertTrue(result instanceof String[]);
 	}
 
 	@Test
