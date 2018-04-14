@@ -16,7 +16,7 @@ import static org.mockito.Matchers.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class DriverUT {
+public class DriverUTest {
 
 	private static final Double X = 38.56889;
 	private static final Double Y = 40.511107;

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class UrbanizationsTreatmentServiceUT {
+public class UrbanizationsTreatmentServiceUTest {
 
 	private UrbanizationsTreatmentService service = new UrbanizationsTreatmentServiceImpl();
 
