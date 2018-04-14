@@ -46,6 +46,7 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
         for (int x = 0; x < this.getSize(); x++) {
             for (int y = 0; y < this.getSize(); y++) {
                 if (urbanizationId.equals(this.data[x][y])) {
+                    
                     switch (direction) {
                         case UP:
                             response = this.data[x -1][y];
@@ -60,7 +61,7 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
                             response = this.data[x][y + 1];
                             break;
                         default:
-                            break;
+                            throw new IllegalArgumentException("unhandled enum value: " + direction);
                     }
                 }
             }
