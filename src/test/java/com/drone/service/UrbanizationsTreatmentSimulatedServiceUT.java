@@ -1,15 +1,33 @@
 package com.drone.service;
 
 import com.drone.common.Directions;
+import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.powermock.api.mockito.PowerMockito;
+import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.powermock.modules.junit4.PowerMockRunner;
+import org.powermock.reflect.Whitebox;
+
+import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
-public class UrbanizationsTreatmentSimulatedServiceTest {
+@RunWith(PowerMockRunner.class)
+public class UrbanizationsTreatmentSimulatedServiceUT {
 
 	private UrbanizationsTreatmentSimulatedService service;
 	private UrbanizationsTreatmentService rService;
 
+
+	@Before
+	public void setup() {
+        rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
+	}
+
+
+
+/**/
 	@Test
 	public void shouldReturnCenterOfArray3x3() {
 		String result;
@@ -38,42 +56,50 @@ public class UrbanizationsTreatmentSimulatedServiceTest {
 
 	@Test
 	public void shouldBeOkInGetAdjacentCallForDOWNDirection() {
-		rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
 		String result = rService.getAdjacent("5", Directions.DOWN);
 		assertEquals("8", result);
 	}
 
 	@Test
 	public void shouldBeOkInGetAdjacentCallForUPDirection() {
-		rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
 		String result = rService.getAdjacent("5", Directions.UP);
 		assertEquals("2", result);
 	}
 
 	@Test
 	public void shouldBeOkInGetAdjacentCallForLEFTDirection() {
-		rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
 		String result = rService.getAdjacent("5", Directions.LEFT);
 		assertEquals("4", result);
 	}
 
 	@Test
 	public void shouldBeOkInGetAdjacentCallForRIGHTDirection() {
-		rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
 		String result = rService.getAdjacent("5", Directions.RIGHT);
 		assertEquals("6", result);
 	}
 
-	@Test
+	@Test(expected = IllegalArgumentException.class)
+	@PrepareForTest(Directions.class)
 	public void shouldBeOkInGetAdjacentCallForOtherDirection() {
-		rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
-		String result = rService.getAdjacent("5", Directions.DEFAULT);
-		assertEquals("", result);
+
+		Directions[] origValues = Directions.values();
+		Directions invalidValue = PowerMockito.mock(Directions.class);
+
+		Whitebox.setInternalState(invalidValue, "name", "-");
+		Whitebox.setInternalState(invalidValue, "ordinal", origValues.length);
+
+		Directions[] newValues = Arrays.copyOf(origValues, origValues.length+1);
+		newValues[newValues.length-1] = invalidValue;
+
+		PowerMockito.mockStatic(Directions.class);
+		PowerMockito.when(Directions.values()).thenReturn(newValues);
+
+		rService.getAdjacent("5", invalidValue);
+
 	}
 
 	@Test
 	public void shouldBeOkInGetPositionByCoordinateCallForAnythingParams() {
-		rService = new UrbanizationsTreatmentSimulatedServiceImpl(3);
 		String result = rService.getPositionByCoordinate(null, null);
 		assertEquals("5", result);
 	}
