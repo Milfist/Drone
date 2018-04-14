@@ -1,9 +1,6 @@
 package com.drone.driver;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.OptionalDouble;
+import java.util.*;
 
 import com.drone.common.Directions;
 import com.drone.common.Range;
@@ -44,22 +41,22 @@ public interface Driver {
 	 * @throws Exception 
 	 */
 	default String[] getUrbanizations(OptionalDouble coordinateX, OptionalDouble coordinateY, Optional <Range> range) {
-		
+
 		List<String> urbanizations = new ArrayList<>();
 		
 		if (coordinateX.isPresent() && coordinateY.isPresent() && range.isPresent()) {
 
 			String urbanizationId = this.getUrbanizationId(coordinateX.getAsDouble(), coordinateY.getAsDouble());
-	
+
 			urbanizations.add(urbanizationId);
 	
 			for (Directions dir : Directions.values()) {
 				this.getUrbanizationsForDirectionAndRange(urbanizationId, urbanizations, dir, range.get());
 			}
 			
-		} 
+		}
 		 
-		return urbanizations.stream().sorted((a,b)->Integer.valueOf(a).compareTo(Integer.valueOf(b))).toArray(String[]::new);
+		return urbanizations.stream().sorted(Comparator.comparing(Integer::valueOf)).toArray(String[]::new);
 	}
 
 	/**
