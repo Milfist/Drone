@@ -6,7 +6,7 @@ public enum Range {
 
 	private Integer value;
 
-	private Range(Integer i) {
+	Range(Integer i) {
         value = i;
     }
 

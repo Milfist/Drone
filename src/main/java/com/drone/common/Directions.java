@@ -2,6 +2,6 @@ package com.drone.common;
 
 public enum Directions {
 
-	UP, DOWN, RIGHT, LEFT, DEFAULT
+	UP, DOWN, RIGHT, LEFT
 
 }

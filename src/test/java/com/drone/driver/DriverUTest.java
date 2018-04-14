@@ -16,7 +16,7 @@ import static org.mockito.Matchers.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class DriverTest {
+public class DriverUTest {
 
 	private static final Double X = 38.56889;
 	private static final Double Y = 40.511107;
@@ -42,8 +42,6 @@ public class DriverTest {
 		String[] result = this.realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.of(RANGE));
 
 		assertNotNull(result);
-		assertTrue(result instanceof String[]);
-
 	}
 
 	@Test
@@ -55,31 +53,30 @@ public class DriverTest {
 		String[] result = this.simulatedDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.of(RANGE));
 
 		assertNotNull(result);
-		assertTrue(result instanceof String[]);
 	}
 
 	@Test
 	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam1Empty() {
 		String[] result = realDriver.getUrbanizations(OptionalDouble.empty(), OptionalDouble.of(Y), Optional.of(RANGE));
-		assertTrue(result.length == 0);
+		assertSame(0, result.length);
 	}
 
 	@Test
 	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam2Empty() {
 		String[] result = realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.empty(), Optional.of(RANGE));
-		assertTrue(result.length == 0);
+		assertSame(0, result.length);
 	}
 
 	@Test
 	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam3Empty() {
 		String[] result = realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.empty());
-		assertTrue(result.length == 0);
+		assertSame(0, result.length);
 	}
 
 	@Test
 	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithAllParamsEmpty() {
 		String[] result = realDriver.getUrbanizations(OptionalDouble.empty(), OptionalDouble.empty(), Optional.empty());
-		assertTrue(result.length == 0);
+		assertSame(0, result.length);
 	}
 
 	@Test
