@@ -58,25 +58,25 @@ public class DriverUT {
 	@Test
 	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam1Empty() {
 		String[] result = realDriver.getUrbanizations(OptionalDouble.empty(), OptionalDouble.of(Y), Optional.of(RANGE));
-		assertTrue(result.length == 0);
+		assertSame(0, result.length);
 	}
 
 	@Test
 	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam2Empty() {
 		String[] result = realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.empty(), Optional.of(RANGE));
-		assertTrue(result.length == 0);
+		assertSame(0, result.length);
 	}
 
 	@Test
 	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithParam3Empty() {
 		String[] result = realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.empty());
-		assertTrue(result.length == 0);
+		assertSame(0, result.length);
 	}
 
 	@Test
 	public void shouldBeEmptyArrayWhenCallToGetUrbanizationsWithAllParamsEmpty() {
 		String[] result = realDriver.getUrbanizations(OptionalDouble.empty(), OptionalDouble.empty(), Optional.empty());
-		assertTrue(result.length == 0);
+		assertSame(0, result.length);
 	}
 
 	@Test
