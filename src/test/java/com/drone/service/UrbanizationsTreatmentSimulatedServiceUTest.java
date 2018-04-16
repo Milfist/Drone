@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 
 public class UrbanizationsTreatmentSimulatedServiceUTest {
 
@@ -66,15 +67,21 @@ public class UrbanizationsTreatmentSimulatedServiceUTest {
 		assertEquals("6", result);
 	}
 
-	@Test(expected = IllegalArgumentException.class)
-	public void shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection() {
-		rService.getAdjacent("5", "OTHER");
+	@Test
+	public void shouldBeEmptyInGetAdjacentCallWithValuesOutOfData() {
+		String result = rService.getAdjacent("15", "OTHER");
+		assertSame("", result);
 	}
 
 	@Test
 	public void shouldBeOkInGetPositionByCoordinateCallForAnythingParams() {
 		String result = rService.getPositionByCoordinate(null, null);
 		assertEquals("5", result);
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection() {
+		rService.getAdjacent("5", "OTHER");
 	}
 
 }

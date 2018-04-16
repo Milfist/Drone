@@ -4,3 +4,5 @@
 .settings/
 .idea/
 target/
+*.java___jb_tmp___
+Drone.iml

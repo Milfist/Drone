@@ -11,7 +11,7 @@ public enum Directions {
 	}
 
 	public String getValue() {
-		return value == null ? "OTHER" : value;
+		return value;
 	}
 
 }

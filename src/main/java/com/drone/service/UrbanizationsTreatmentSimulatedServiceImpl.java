@@ -1,9 +1,5 @@
 package com.drone.service;
 
-import com.drone.common.Directions;
-
-import java.util.Arrays;
-
 /**
  * Interface UrbanizationsTreatmentService implementation.
  * This service, that we will add by composition to the implementation of the driver, simulates all the logic that an
@@ -46,26 +42,28 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
     public String getAdjacent(String urbanizationId, String direction) {
 
         String r = "";
-        loop:
-        for (int x = 0; x < this.getSize(); x++) {
-            for (int y = 0; y < this.getSize(); y++) {
+        Boolean c = Boolean.TRUE;
+
+        for (int x = 0; x < this.getSize() && c; x++) {
+            for (int y = 0; y < this.getSize() && c; y++) {
                 if (urbanizationId.equals(this.data[x][y])) {
                     switch (direction) {
                         case "UP":
                             r = this.data[x -1][y];
-                            break loop;
+                            break;
                         case "DOWN":
                             r = this.data[x + 1][y];
-                            break loop;
+                            break;
                         case "LEFT":
                             r = this.data[x][y - 1];
-                            break loop;
+                            break;
                         case "RIGHT":
                             r = this.data[x][y + 1];
-                            break loop;
+                            break;
                         default:
                             throw new IllegalArgumentException("unhandled enum value: " + direction);
                     }
+                    c = Boolean.FALSE;
                 }
             }
         }
