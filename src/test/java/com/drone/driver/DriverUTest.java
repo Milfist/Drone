@@ -37,7 +37,7 @@ public class DriverUTest {
 	public void shouldBeOkWhenCallToGetUrbanizationsWithRealService() {
 
 		when(realServiceMock.getPositionByCoordinate(anyDouble(), anyDouble())).thenReturn(POSITION);
-		when(realServiceMock.getAdjacent(anyString(), any(Directions.class))).thenReturn(POSITION);
+		when(realServiceMock.getAdjacent(anyString(), anyString())).thenReturn(POSITION);
 
 		String[] result = this.realDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.of(RANGE));
 
@@ -48,7 +48,7 @@ public class DriverUTest {
 	public void shouldBeOkWhenCallToGetUrbanizationsWithSimulatedService() {
 
 		when(simulatedServiceMock.getPositionByCoordinate(anyDouble(), anyDouble())).thenReturn(POSITION);
-		when(simulatedServiceMock.getAdjacent(anyString(), any(Directions.class))).thenReturn(POSITION);
+		when(simulatedServiceMock.getAdjacent(anyString(), anyString())).thenReturn(POSITION);
 
 		String[] result = this.simulatedDriver.getUrbanizations(OptionalDouble.of(X), OptionalDouble.of(Y), Optional.of(RANGE));
 
@@ -81,14 +81,14 @@ public class DriverUTest {
 
 	@Test
 	public void shouldBeOkWhenCallToGetAdjacentWithRealService() {
-		when(realServiceMock.getAdjacent(anyString(), any(Directions.class))).thenReturn(POSITION);
+		when(realServiceMock.getAdjacent(anyString(), anyString())).thenReturn(POSITION);
 		String result = this.realDriver.getAdjacent("13", Directions.RIGHT);
 		assertEquals(POSITION, result);
 	}
 
 	@Test
 	public void shouldBeOkWhenCallToGetAdjacentWithSimulatedService() {
-		when(simulatedServiceMock.getAdjacent(anyString(), any(Directions.class))).thenReturn(POSITION);
+		when(simulatedServiceMock.getAdjacent(anyString(), anyString())).thenReturn(POSITION);
 		String result = this.simulatedDriver.getAdjacent("13", Directions.RIGHT);
 		assertEquals(POSITION, result);
 	}

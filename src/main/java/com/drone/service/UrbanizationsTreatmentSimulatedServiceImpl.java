@@ -2,6 +2,8 @@ package com.drone.service;
 
 import com.drone.common.Directions;
 
+import java.util.Arrays;
+
 /**
  * Interface UrbanizationsTreatmentService implementation.
  * This service, that we will add by composition to the implementation of the driver, simulates all the logic that an
@@ -38,35 +40,36 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
     }
 
     /**
-     * @see UrbanizationsTreatmentService#getAdjacent(String, Directions)
+     * @see UrbanizationsTreatmentService#getAdjacent(String, String)
      */
     @Override
-    public String getAdjacent(String urbanizationId, Directions direction) {
-        String response = "";
+    public String getAdjacent(String urbanizationId, String direction) {
+
+        String r = "";
+        loop:
         for (int x = 0; x < this.getSize(); x++) {
             for (int y = 0; y < this.getSize(); y++) {
                 if (urbanizationId.equals(this.data[x][y])) {
-                    
                     switch (direction) {
-                        case UP:
-                            response = this.data[x -1][y];
-                            break;
-                        case DOWN:
-                            response = this.data[x + 1][y];
-                            break;
-                        case LEFT:
-                            response = this.data[x][y - 1];
-                            break;
-                        case RIGHT:
-                            response = this.data[x][y + 1];
-                            break;
+                        case "UP":
+                            r = this.data[x -1][y];
+                            break loop;
+                        case "DOWN":
+                            r = this.data[x + 1][y];
+                            break loop;
+                        case "LEFT":
+                            r = this.data[x][y - 1];
+                            break loop;
+                        case "RIGHT":
+                            r = this.data[x][y + 1];
+                            break loop;
                         default:
                             throw new IllegalArgumentException("unhandled enum value: " + direction);
                     }
                 }
             }
         }
-        return response;
+        return r;
     }
 
     public Integer getSize() {

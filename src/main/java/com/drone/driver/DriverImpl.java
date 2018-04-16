@@ -29,6 +29,6 @@ public class DriverImpl implements Driver {
      * @see Driver#getAdjacent(String, Directions)
      */
     public String getAdjacent(String urbanizationId, Directions direction) {
-        return this.service.getAdjacent(urbanizationId,direction);
+        return this.service.getAdjacent(urbanizationId,direction.getValue());
     }
 }

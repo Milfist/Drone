@@ -1,17 +1,15 @@
 package com.drone.service;
 
-import com.drone.common.Directions;
-
 /**
  * Real implementation of the service.
  */
 public class UrbanizationsTreatmentServiceImpl implements UrbanizationsTreatmentService {
 
     /**
-     * @see UrbanizationsTreatmentService#getAdjacent(String, Directions)
+     * @see UrbanizationsTreatmentService#getAdjacent(String, String)
      */
     @Override
-    public String getAdjacent(String urbanizationId, Directions direction) {
+    public String getAdjacent(String urbanizationId, String direction) {
         return null;
     }
 

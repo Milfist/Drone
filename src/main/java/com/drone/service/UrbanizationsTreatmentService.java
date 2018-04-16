@@ -1,7 +1,5 @@
 package com.drone.service;
 
-import com.drone.common.Directions;
-
 public interface UrbanizationsTreatmentService {
 
     /**
@@ -11,7 +9,7 @@ public interface UrbanizationsTreatmentService {
      * @param direction address in which the adjacent urbanization is located
      * @return The identifier of the urbanization corresponding to the coordinates
      */
-    String getAdjacent(String urbanizationId, Directions direction);
+    String getAdjacent(String urbanizationId, String direction);
 
     /**
      * Simulates a call by which a position is obtained based on coordinates.
