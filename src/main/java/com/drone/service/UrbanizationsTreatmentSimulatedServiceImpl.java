@@ -1,9 +1,5 @@
 package com.drone.service;
 
-import com.drone.common.Directions;
-
-import java.util.Arrays;
-
 /**
  * Interface UrbanizationsTreatmentService implementation.
  * This service, that we will add by composition to the implementation of the driver, simulates all the logic that an
