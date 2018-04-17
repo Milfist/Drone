@@ -17,7 +17,7 @@ Config?
 
 A simple driver for a drone has been developed (vehicle
 unmanned aerial). With this device you want to fly over a set
-of urbanizations (defined by an identifier) ​​with the objective of
+of urbanizations (defined by an identifier) with the objective of
 know how many chalets have a pool.
 The mapping team will indicate the idealist development team i + d
 coordinates and a range to fly over (whole number representing
@@ -40,7 +40,7 @@ You can check the documentation by clicking [**HERE**][1]
 
 # By:
 
-![alt text](https://github.com/Milfist/Docs/blob/master/milfist.JPG)
+![alt text](https://github.com/Milfist/Docs/blob/master/milfist.JPG)[1]
 
 [0]: https://github.com/Milfist/
 [1]: https://milfist.github.io/Drone
