@@ -1,4 +1,0 @@
-checks:
-  method-complexity:
-    config:
-      threshold: 15

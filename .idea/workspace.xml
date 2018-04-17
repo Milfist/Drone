@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe182af5-4e27-467e-b03e-f79f9c82cda1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/allclasses-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/allclasses-noframe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/common/Directions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/common/Range.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/common/class-use/Directions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/common/class-use/Range.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/common/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/common/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/common/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/common/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/driver/Driver.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/driver/DriverImpl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/driver/class-use/Driver.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/driver/class-use/DriverImpl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/driver/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/driver/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/driver/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/driver/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/UrbanizationsTreatmentService.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/UrbanizationsTreatmentServiceImpl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/UrbanizationsTreatmentSimulatedService.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/UrbanizationsTreatmentSimulatedServiceImpl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/class-use/UrbanizationsTreatmentService.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/class-use/UrbanizationsTreatmentServiceImpl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/class-use/UrbanizationsTreatmentSimulatedService.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/class-use/UrbanizationsTreatmentSimulatedServiceImpl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/drone/service/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/constant-values.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/deprecated-list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/help-doc.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index-all.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/external/jquery/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_222222_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_2e83ff_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_454545_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_888888_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_cd0a0a_256x240.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery-1.10.2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery-ui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery-ui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery-ui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery-ui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery-ui.structure.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jquery-ui.structure.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils-ie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils-ie.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jszip/dist/jszip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jquery/jszip/dist/jszip.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/member-search-index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/member-search-index.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/overview-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/overview-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/overview-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package-list" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package-search-index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/package-search-index.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/glass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/stylesheet.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/type-search-index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/type-search-index.zip" />
+      <change beforePath="$PROJECT_DIR$/.codeclimate.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/common/Directions.html" afterPath="$PROJECT_DIR$/com/drone/common/Directions.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/common/Range.html" afterPath="$PROJECT_DIR$/com/drone/common/Range.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/common/class-use/Directions.html" afterPath="$PROJECT_DIR$/com/drone/common/class-use/Directions.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/common/class-use/Range.html" afterPath="$PROJECT_DIR$/com/drone/common/class-use/Range.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/common/package-frame.html" afterPath="$PROJECT_DIR$/com/drone/common/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/common/package-summary.html" afterPath="$PROJECT_DIR$/com/drone/common/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/common/package-tree.html" afterPath="$PROJECT_DIR$/com/drone/common/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/common/package-use.html" afterPath="$PROJECT_DIR$/com/drone/common/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/driver/Driver.html" afterPath="$PROJECT_DIR$/com/drone/driver/Driver.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/driver/DriverImpl.html" afterPath="$PROJECT_DIR$/com/drone/driver/DriverImpl.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/driver/class-use/Driver.html" afterPath="$PROJECT_DIR$/com/drone/driver/class-use/Driver.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/driver/class-use/DriverImpl.html" afterPath="$PROJECT_DIR$/com/drone/driver/class-use/DriverImpl.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/driver/package-frame.html" afterPath="$PROJECT_DIR$/com/drone/driver/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/driver/package-summary.html" afterPath="$PROJECT_DIR$/com/drone/driver/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/driver/package-tree.html" afterPath="$PROJECT_DIR$/com/drone/driver/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/driver/package-use.html" afterPath="$PROJECT_DIR$/com/drone/driver/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/UrbanizationsTreatmentService.html" afterPath="$PROJECT_DIR$/com/drone/service/UrbanizationsTreatmentService.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/UrbanizationsTreatmentServiceImpl.html" afterPath="$PROJECT_DIR$/com/drone/service/UrbanizationsTreatmentServiceImpl.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/UrbanizationsTreatmentSimulatedService.html" afterPath="$PROJECT_DIR$/com/drone/service/UrbanizationsTreatmentSimulatedService.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/UrbanizationsTreatmentSimulatedServiceImpl.html" afterPath="$PROJECT_DIR$/com/drone/service/UrbanizationsTreatmentSimulatedServiceImpl.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/class-use/UrbanizationsTreatmentService.html" afterPath="$PROJECT_DIR$/com/drone/service/class-use/UrbanizationsTreatmentService.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/class-use/UrbanizationsTreatmentServiceImpl.html" afterPath="$PROJECT_DIR$/com/drone/service/class-use/UrbanizationsTreatmentServiceImpl.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/class-use/UrbanizationsTreatmentSimulatedService.html" afterPath="$PROJECT_DIR$/com/drone/service/class-use/UrbanizationsTreatmentSimulatedService.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/class-use/UrbanizationsTreatmentSimulatedServiceImpl.html" afterPath="$PROJECT_DIR$/com/drone/service/class-use/UrbanizationsTreatmentSimulatedServiceImpl.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/package-frame.html" afterPath="$PROJECT_DIR$/com/drone/service/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/package-summary.html" afterPath="$PROJECT_DIR$/com/drone/service/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/package-tree.html" afterPath="$PROJECT_DIR$/com/drone/service/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/com/drone/service/package-use.html" afterPath="$PROJECT_DIR$/com/drone/service/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/constant-values.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/deprecated-list.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/help-doc.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/index-all.html" afterPath="$PROJECT_DIR$/index-all.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/external/jquery/jquery.js" afterPath="$PROJECT_DIR$/jquery/external/jquery/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_222222_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_2e83ff_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_454545_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_888888_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/jquery/images/ui-icons_cd0a0a_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/jquery/jquery-1.10.2.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jquery-ui.css" afterPath="$PROJECT_DIR$/jquery/jquery-ui.css" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jquery-ui.js" afterPath="$PROJECT_DIR$/jquery/jquery-ui.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jquery-ui.min.css" afterPath="$PROJECT_DIR$/jquery/jquery-ui.min.css" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jquery-ui.min.js" afterPath="$PROJECT_DIR$/jquery/jquery-ui.min.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/jquery/jquery-ui.structure.css" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jquery-ui.structure.min.css" afterPath="$PROJECT_DIR$/jquery/jquery-ui.structure.min.css" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jszip-utils/dist/jszip-utils-ie.js" afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils-ie.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils-ie.min.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jszip-utils/dist/jszip-utils.js" afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jszip-utils/dist/jszip-utils.min.js" afterPath="$PROJECT_DIR$/jquery/jszip-utils/dist/jszip-utils.min.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jszip/dist/jszip.js" afterPath="$PROJECT_DIR$/jquery/jszip/dist/jszip.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/jquery/jszip/dist/jszip.min.js" afterPath="$PROJECT_DIR$/jquery/jszip/dist/jszip.min.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/member-search-index.js" afterPath="$PROJECT_DIR$/member-search-index.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/member-search-index.zip" afterPath="$PROJECT_DIR$/member-search-index.zip" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/overview-frame.html" afterPath="$PROJECT_DIR$/overview-frame.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/overview-summary.html" afterPath="$PROJECT_DIR$/overview-summary.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/package-list" afterPath="$PROJECT_DIR$/package-list" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/package-search-index.js" afterPath="$PROJECT_DIR$/package-search-index.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/package-search-index.zip" afterPath="$PROJECT_DIR$/package-search-index.zip" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/resources/glass.png" afterPath="$PROJECT_DIR$/resources/glass.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/resources/x.png" afterPath="$PROJECT_DIR$/resources/x.png" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/script.js" afterPath="$PROJECT_DIR$/script.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/search.js" afterPath="$PROJECT_DIR$/search.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/stylesheet.css" afterPath="$PROJECT_DIR$/stylesheet.css" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/type-search-index.js" afterPath="$PROJECT_DIR$/type-search-index.js" />
+      <change beforePath="$PROJECT_DIR$/docs/apidocs/type-search-index.zip" afterPath="$PROJECT_DIR$/type-search-index.zip" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/profiles/dev/config.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/profiles/integration-test/config.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/integration-test/java/drone/driver/DriverIT.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drone/common/Directions.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drone/common/Range.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drone/driver/Driver.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drone/driver/DriverImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentSimulatedService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/drone/driver/DriverUTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentServiceUTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceUTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Drone$All_in_Drone__4_.coverage" NAME="All in Drone (4) Coverage Results" MODIFIED="1523536431421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Drone$All_in_Drone.coverage" NAME="All in Drone Coverage Results" MODIFIED="1523871167560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Drone$All_in_Drone__3_.coverage" NAME="All in Drone (3) Coverage Results" MODIFIED="1523871644400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Drone$All_in_Drone__2_.coverage" NAME="All in Drone (2) Coverage Results" MODIFIED="1523870600292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Drone" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>core</find>
+      <find>integ</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/common/Directions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/common/UrbanizationsData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentSimulatedService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/driver/DriverImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/driver/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/driver/DriverTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/profiles/dev/config.properties" />
+        <option value="$PROJECT_DIR$/profiles/integration-test/config.properties" />
+        <option value="$PROJECT_DIR$/src/integration-test/java/drone/driver/DriverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/driver/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentServiceUT.java" />
+        <option value="$PROJECT_DIR$/src/integration-test/java/drone/driver/DriverIT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/driver/DriverUT.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/common/Range.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceUT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/driver/DriverImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/driver/DriverUTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/common/Directions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceUTest.java" />
+        <option value="$PROJECT_DIR$/Arquitectura.MD" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/drone/driver/Driver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="93" />
+    <option name="y" value="-965" />
+    <option name="width" value="1364" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Drone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drone" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspace/arquitecturaDOC" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Profiles\mAnguita\workspace-sts\Drone" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.drone.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.drone.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Profiles\mAnguita\workspace-sts\Drone" />
+      <recent name="D:\Profiles\mAnguita\workspace-sts\Drone\docs" />
+      <recent name="D:\Profiles\mAnguita\workspace-sts\Drone\src\integration-test\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DriverUTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="All in Drone (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Drone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DriverUTest" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="jacoco" />
+      <module name="Drone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drone.driver" />
+      <option name="MAIN_CLASS_NAME" value="com.drone.driver.DriverUTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UrbanizationsTreatmentServiceUTest" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="jacoco" />
+      <module name="Drone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drone.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drone.service.UrbanizationsTreatmentServiceUTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UrbanizationsTreatmentSimulatedServiceUT.shouldBeOkInGetAdjacentCallForOtherDirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.drone.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Drone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drone.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drone.service.UrbanizationsTreatmentSimulatedServiceUT" />
+      <option name="METHOD_NAME" value="shouldBeOkInGetAdjacentCallForOtherDirection" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UrbanizationsTreatmentSimulatedServiceUTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.drone.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Drone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drone.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drone.service.UrbanizationsTreatmentSimulatedServiceUTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.drone.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Drone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drone.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drone.service.UrbanizationsTreatmentSimulatedServiceUTest" />
+      <option name="METHOD_NAME" value="shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.drone.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Drone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drone.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drone.service.UrbanizationsTreatmentSimulatedServiceUTest" />
+      <option name="METHOD_NAME" value="shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeOkInGetAdjacentCallForRIGHTDirection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.drone.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Drone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.drone.service" />
+      <option name="MAIN_CLASS_NAME" value="com.drone.service.UrbanizationsTreatmentSimulatedServiceUTest" />
+      <option name="METHOD_NAME" value="shouldBeOkInGetAdjacentCallForRIGHTDirection" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DriverUTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UrbanizationsTreatmentServiceUTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UrbanizationsTreatmentSimulatedServiceUT.shouldBeOkInGetAdjacentCallForOtherDirection" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UrbanizationsTreatmentSimulatedServiceUTest.shouldBeOkInGetAdjacentCallForRIGHTDirection" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Drone (3)" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection2" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UrbanizationsTreatmentSimulatedServiceUTest.shouldBeOkInGetAdjacentCallForRIGHTDirection" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in Drone (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe182af5-4e27-467e-b03e-f79f9c82cda1" name="Default" comment="" />
+      <created>1523425627569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523425627569</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_Drone - 2018.04.16 at 11h 32m 57s.xml">
+      <configuration name="All in Drone" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Drone_(3) - 2018.04.16 at 11h 40m 52s.xml">
+      <configuration name="All in Drone (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrbanizationsTreatmentSimulatedServiceUTest - 2018.04.16 at 12h 56m 55s.xml">
+      <configuration name="UrbanizationsTreatmentSimulatedServiceUTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrbanizationsTreatmentSimulatedServiceUTest_shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection - 2018.04.16 at 12h 05m 59s.xml">
+      <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrbanizationsTreatmentSimulatedServiceUTest_shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection - 2018.04.16 at 12h 43m 39s.xml">
+      <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrbanizationsTreatmentSimulatedServiceUTest_shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection2 - 2018.04.16 at 12h 28m 43s.xml">
+      <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrbanizationsTreatmentSimulatedServiceUTest_shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection2 - 2018.04.16 at 12h 54m 09s.xml">
+      <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeIllegalArgumentExceptionInGetAdjacentCallForOtherDirection2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrbanizationsTreatmentSimulatedServiceUTest_shouldBeOkInGetAdjacentCallForRIGHTDirection - 2018.04.16 at 11h 40m 50s.xml">
+      <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeOkInGetAdjacentCallForRIGHTDirection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrbanizationsTreatmentSimulatedServiceUTest_shouldBeOkInGetAdjacentCallForRIGHTDirection - 2018.04.16 at 12h 40m 55s.xml">
+      <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeOkInGetAdjacentCallForRIGHTDirection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrbanizationsTreatmentSimulatedServiceUTest_shouldBeOkInGetAdjacentCallForRIGHTDirection - 2018.04.16 at 12h 44m 10s.xml">
+      <configuration name="UrbanizationsTreatmentSimulatedServiceUTest.shouldBeOkInGetAdjacentCallForRIGHTDirection" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-307" y="-1089" width="1938" height="1098" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4628633" sideWeight="0.5042965" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19052745" sideWeight="0.49570355" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5349839" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26906553" sideWeight="0.49438202" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.4935553" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17561762" sideWeight="0.505618" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28525296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17669173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4628633" sideWeight="0.5042965" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28525296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4628633" sideWeight="0.49570355" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17669173" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5349839" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26154673" sideWeight="0.49438202" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.4935553" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17561762" sideWeight="0.505618" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceImpl.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="85" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.value</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>direction.getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>direction</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>direction.name</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(Integer)this.getParameterCount.invoke(executable)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data.length/2 + 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data.length%2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar!/org/springframework/stereotype/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/properties.yml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.20/snakeyaml-1.20.jar!/org/yaml/snakeyaml/Yaml.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="213" column="17" lean-forward="false" selection-start-line="213" selection-start-column="17" selection-end-line="213" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/common/UrbanizationsData.java" />
+    <entry file="file://$PROJECT_DIR$/Drone.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/dev/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles/integration-test/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integration-test/java/drone/service/UrbanizationsTreatmentServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/integration-test/java/drone/service/UrbanizationsTreatmentSimulatedServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentServiceUT.java" />
+    <entry file="file://$PROJECT_DIR$/src/integration-test/java/drone/driver/DriverIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/drone/driver/DriverUT.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/TestMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.jar!/org/mockito/internal/util/concurrent/WeakConcurrentMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/description/ModifierReviewable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/description/TypeVariableSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/description/method/ParameterList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="369" column="0" lean-forward="false" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/matcher/FilterableList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/description/type/TypeDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/description/type/TypeDescription.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1215" column="0" lean-forward="false" selection-start-line="1215" selection-start-column="0" selection-end-line="1215" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/description/type/TypeList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="487" column="0" lean-forward="false" selection-start-line="487" selection-start-column="0" selection-end-line="487" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/dynamic/scaffold/MethodGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar!/net/bytebuddy/description/method/MethodDescription.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="552" column="0" lean-forward="false" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.jar!/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="116" column="92" lean-forward="false" selection-start-line="116" selection-start-column="92" selection-end-line="116" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/MethodRoadie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceUT.java" />
+    <entry file="jar://D:/Java/jdk_9.0.4/lib/src.zip!/java.base/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3006">
+          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-reflect/2.0.0-beta.5/powermock-reflect-2.0.0-beta.5.jar!/org/powermock/reflect/internal/WhiteboxImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="274" column="25" lean-forward="false" selection-start-line="274" selection-start-column="25" selection-end-line="274" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-reflect/2.0.0-beta.5/powermock-reflect-2.0.0-beta.5.jar!/org/powermock/reflect/Whitebox.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk_9.0.4/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-module-junit4/2.0.0-beta.5/powermock-module-junit4-2.0.0-beta.5.jar!/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="303" column="0" lean-forward="false" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/drone/driver/DriverUTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="90" column="70" lean-forward="false" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/common/Range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/driver/DriverImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="31" column="75" lean-forward="false" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentSimulatedService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1418659640000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1418659640000" expanded="true" signature="277:284" ph="{}" />
+            <marker date="1418659640000" expanded="true" signature="327:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/common/Directions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arquitectura.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="407">
+            <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="218">
+            <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/drone/service/UrbanizationsTreatmentSimulatedServiceUTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="70" column="69" lean-forward="false" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="141" column="32" lean-forward="true" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidocs/com/drone/common/class-use/Range.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/drone/driver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/drone/common/class-use/Range.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Drone</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: io.projectreactor.addons:reactor-test:3.0.6.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
