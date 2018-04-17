@@ -40,7 +40,7 @@ You can check the documentation by clicking [**HERE**][1]
 
 # By:
 
-![alt text](https://github.com/Milfist/Docs/blob/master/milfist.JPG)[1]
+[![alt text](https://github.com/Milfist/Docs/blob/master/milfist.JPG)][1]
 
 [0]: https://github.com/Milfist/
 [1]: https://milfist.github.io/Drone
