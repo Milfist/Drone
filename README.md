@@ -17,7 +17,7 @@ Config?
 
 A simple driver for a drone has been developed (vehicle
 unmanned aerial). With this device you want to fly over a set
-of urbanizations (defined by an identifier) ​​with the objective of
+of urbanizations (defined by an identifier) with the objective of
 know how many chalets have a pool.
 The mapping team will indicate the idealist development team i + d
 coordinates and a range to fly over (whole number representing
@@ -26,14 +26,21 @@ Provide a collection of urbanizations to visit.
 
 ### What will I find?
 
-It is an example application in **Java 9**. It has continuous integration with **Travis CI**, report of unit test coverage and is integrated with **CodeClimate**.
+It is an example application in **Java 9**. It has continuous integration with **Travis CI**, report of unit test coverage and is integrated with **CodeClimate** and **Sonarcloud**.
 
-### Attention!
+### What I can do?
 
-The implementation of **getUrbanizationId()** and **getAdjacent()** is just a mock. The important thing is **getUrbanizations()** that are part of a larger program.
+* <code>*mvn test*</code>: Execute the unit tests and generate the coverage report.
+* <code>*mvn verify -P integration-test*</code>: Execute the integration test.
+* <code>*mvn site*</code>: Generate Javadoc documentation.
+
+### You want to know more?
+
+You can check the documentation by clicking [**HERE**][1]
 
 # By:
 
-![alt text](https://github.com/Milfist/Docs/blob/master/milfist.JPG)
+[![alt text](https://github.com/Milfist/Docs/blob/master/milfist.JPG)][1]
 
 [0]: https://github.com/Milfist/
+[1]: https://milfist.github.io/Drone
