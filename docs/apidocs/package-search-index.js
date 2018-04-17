@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"com.drone.common"},{"l":"com.drone.driver"},{"l":"com.drone.service"}]
