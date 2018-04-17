@@ -26,11 +26,13 @@ Provide a collection of urbanizations to visit.
 
 ### What will I find?
 
-It is an example application in **Java 9**. It has continuous integration with **Travis CI**, report of unit test coverage and is integrated with **CodeClimate**.
+It is an example application in **Java 9**. It has continuous integration with **Travis CI**, report of unit test coverage and is integrated with **CodeClimate** and **Sonarcloud**.
 
-### Attention!
+### What I can do?
 
-The implementation of **getUrbanizationId()** and **getAdjacent()** is just a mock. The important thing is **getUrbanizations()** that are part of a larger program.
+* <code>mvn test</code>: Execute the unit tests and generate the coverage report.
+* <code>mvn verify -P integration-test</code>: Execute the integration test.
+* <code>mvn site</code>: Generate Javadoc documentation.
 
 # By:
 
