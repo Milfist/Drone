@@ -30,9 +30,9 @@ It is an example application in **Java 9**. It has continuous integration with *
 
 ### What I can do?
 
-* <code>mvn test</code>: Execute the unit tests and generate the coverage report.
-* <code>mvn verify -P integration-test</code>: Execute the integration test.
-* <code>mvn site</code>: Generate Javadoc documentation.
+* <code>*mvn test*</code>: Execute the unit tests and generate the coverage report.
+* <code>*mvn verify -P integration-test*</code>: Execute the integration test.
+* <code>*mvn site*</code>: Generate Javadoc documentation.
 
 # By:
 
