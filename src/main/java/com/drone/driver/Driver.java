@@ -38,7 +38,6 @@ public interface Driver {
 	 * @param coordinateY coordinate on the y axis
 	 * @param range number that indicates the search range
 	 * @return the identifier of the urbanization that corresponds with the address and urbanization identifier.
-	 * @throws Exception 
 	 */
 	default String[] getUrbanizations(OptionalDouble coordinateX, OptionalDouble coordinateY, Optional <Range> range) {
 
