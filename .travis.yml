@@ -21,7 +21,7 @@ script:
 after_script:
   #- ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
   - ./cc-test-reporter format-coverage -d -t jacoco /target/jacoco-ut/jacoco.xml
-  - ./cc-test-reporter upload-coverage -d --input /target/jacoco-ut/jacoco.xml
+  - ./cc-test-reporter upload-coverage -d --input /target/jacoco.exec
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
