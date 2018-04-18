@@ -40,10 +40,8 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
      */
     @Override
     public String getAdjacent(String urbanizationId, String direction) {
-
         String r = "";
         Boolean c = Boolean.TRUE;
-
         for (int x = 0; x < this.getSize() && c; x++) {
             for (int y = 0; y < this.getSize() && c; y++) {
                 if (urbanizationId.equals(this.data[x][y])) {
