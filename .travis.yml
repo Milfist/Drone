@@ -10,7 +10,7 @@ addons:
     token:
       secure: "kjL8iGTCaqRT9FZRYOa2vfQAMFTyoXGf5KdtK2nVzN7l4LudElcLDZISNkht7A6Wx1ZS5wpkXJtxRyYjp908yPTaU4QceoIuQVLedZF6/dwyLV2enfR58elAWLSLwur326781di/IxQmeSxgiiSe2V6Nuzjqu4vuebj2ayNwkr0aQZ4L+UALTW5CubAoQpu48UXCK1Gzs22WrKuibUZv2Rt7YAi6bh9qnQn+JbbxPVANtmwsNUp1DK1ZRliZYd1ZgzipAZ8ENWoQ0fgefbxjUStj8vgoPbPSg1Ir1GlrBMaxw6gQMJ0fIyCGNlzDHXkI+EgGw91PQCqe6xWRk5c0Iq3MQJUaIiT8nyLOTJRp0xHDXt/ms4EfiYPeDAp8PtMG/ysBAcCWWBJLveXi/B7jAaW8/NOnoAnXqoKXqc+MAvrYdJvTLYlsRtZuosscBU/RO9g8nefh/tv+crbigyH5lwYr5gkeecR0IqGzXrX8hHIZO9GeYdAZEt5BXvi8bC6zxIzCPHuxZlRqCu7tIOzgUH80r6uDm1C0we3u1HLqrkV1yysqAiOKmtzikgqwJe2jXKiRKqSKx5yqPQ869o0fSK2jMJZ9+oQwYau5YZi48VyZ5PY8EPEdSZIwsIy5ANekHw8Xl8y9Utfca2lhhsw6GWVCfQToUaTWQrk0A5YdEP4="
 script:
-  - mvn test
+  #- mvn test
   - sonar-scanner
 after_success:
   - bash <(curl -s https://codecov.io/bash)
