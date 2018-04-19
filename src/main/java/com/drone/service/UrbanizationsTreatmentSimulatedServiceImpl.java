@@ -40,28 +40,21 @@ public class UrbanizationsTreatmentSimulatedServiceImpl implements Urbanizations
      */
     @Override
     public String getAdjacent(String urbanizationId, String direction) {
-
         String r = "";
         Boolean c = Boolean.TRUE;
-
         for (int x = 0; x < this.getSize() && c; x++) {
             for (int y = 0; y < this.getSize() && c; y++) {
                 if (urbanizationId.equals(this.data[x][y])) {
                     switch (direction) {
                         case "UP":
-                            r = this.data[x -1][y];
-                            break;
+                            r = this.data[x -1][y]; break;
                         case "DOWN":
-                            r = this.data[x + 1][y];
-                            break;
+                            r = this.data[x + 1][y]; break;
                         case "LEFT":
-                            r = this.data[x][y - 1];
-                            break;
+                            r = this.data[x][y - 1]; break;
                         case "RIGHT":
-                            r = this.data[x][y + 1];
-                            break;
-                        default:
-                            throw new IllegalArgumentException("unhandled enum value: " + direction);
+                            r = this.data[x][y + 1]; break;
+                        default: throw new IllegalArgumentException("unhandled enum value: " + direction);
                     }
                     c = Boolean.FALSE;
                 }
