@@ -36,12 +36,9 @@ You can check the documentation by clicking [**HERE**][1]
 
 ### Last news
 
-###### 19-04-2018 
-I have managed to configure the **CodeClimate coverage**!
-I will create a separate repository for this configuration, which is quite complex and there is very little information.
+###### 19-04-2018 I have managed to configure the **CodeClimate coverage**! I will create a separate repository for this configuration, which is quite complex and there is very little information.
 
-###### 20-04-2018
-Starting modularization
+###### 20-04-2018 Starting modularization
 
 
 # By:
