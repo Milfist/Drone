@@ -12,7 +12,6 @@ addons:
 env:
   global:
     - CC_TEST_REPORTER_ID=cf0d606224258853e844a7c886bd158d977f3246a30308e210f82f7ed434b972
-
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
@@ -23,6 +22,5 @@ script:
 after_script:
   - ./cc-test-reporter format-coverage -d -t jacoco ./target/jacoco-ut/jacoco.xml
   - ./cc-test-reporter upload-coverage -d
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 after_success:
   - bash <(curl -s https://codecov.io/bash)
