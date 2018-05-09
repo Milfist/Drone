@@ -39,6 +39,8 @@ You can check the documentation by clicking [**HERE**][1]
 ###### 19-04-2018 I have managed to configure the **CodeClimate coverage**! I will create a separate repository for this configuration, which is quite complex and there is very little information.
 ###### 20-04-2018 Starting modularization
 ###### 23-04-2018 Modularization in a project clone
+###### 09-05-2018 Modularization operative, click [**HERE**][2]
+
 
 # By:
 
@@ -46,3 +48,4 @@ You can check the documentation by clicking [**HERE**][1]
 
 [0]: https://github.com/Milfist/
 [1]: https://milfist.github.io/Drone
+[2]: https://github.com/Milfist/Drone-Modurarized
