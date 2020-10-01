@@ -1,12 +1,12 @@
 [![Build Status](https://travis-ci.org/Milfist/Drone.svg?branch=master)](https://travis-ci.org/Milfist/Drone) [![Maintainability](https://api.codeclimate.com/v1/badges/700169481b27774825a2/maintainability)](https://codeclimate.com/github/Milfist/Drone/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/700169481b27774825a2/test_coverage)](https://codeclimate.com/github/Milfist/Drone/test_coverage)
  [![codecov](https://codecov.io/gh/Milfist/Drone/branch/master/graph/badge.svg)](https://codecov.io/gh/Milfist/Drone) 
+[![HitCount](http://hits.dwyl.com/Milfist/Drone.svg)](http://hits.dwyl.com/Milfist/Drone)
  
- [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Drone%3ADrone&metric=alert_status)](https://sonarcloud.io/dashboard?id=Drone%3ADrone)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Drone%3ADrone&metric=alert_status)](https://sonarcloud.io/dashboard?id=Drone%3ADrone)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Drone%3ADrone&metric=coverage)](https://sonarcloud.io/dashboard?id=Drone%3ADrone)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Drone%3ADrone&metric=bugs)](https://sonarcloud.io/dashboard?id=Drone%3ADrone)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Drone%3ADrone&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=Drone%3ADrone) 
 
-[![HitCount](http://hits.dwyl.com/Milfist/Drone.svg)](http://hits.dwyl.com/Milfist/Drone)
 
 
 # Drone
