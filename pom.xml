@@ -10,7 +10,7 @@
     <properties>
         <powermock.version>2.0.0-beta.5</powermock.version>
         <mockito2.version>2.18.0</mockito2.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
 
         <jacoco.version>0.8.1</jacoco.version>
         <build-helper-maven-plugin>1.9.1</build-helper-maven-plugin>
